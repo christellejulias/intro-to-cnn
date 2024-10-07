@@ -7,11 +7,16 @@ In this lesson, we will explore the essential concepts behind image classificati
 
 ## Learning Objectives :notebook:
 By the end of this lesson, you will be able to:
-Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
-Describe the role of convolution, filters, and pooling layers in CNNs.
-Identify key use cases for CNNs in image classification and object detection.
-Apply the concepts learned to analyze a simple CNN architecture.
-Discuss the advantages and limitations of using CNNs for image classification tasks.
+
+• Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
+
+• Describe the role of convolution, filters, and pooling layers in CNNs.
+
+• Identify key use cases for CNNs in image classification and object detection.
+
+• Apply the concepts learned to analyze a simple CNN architecture.
+
+• Discuss the advantages and limitations of using CNNs for image classification tasks.
 
 ## Key Definitions and Examples :key:
 ### Convolutional Neural Networks (CNNs) Definition
