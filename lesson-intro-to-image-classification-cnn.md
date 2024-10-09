@@ -75,9 +75,16 @@ For example, if we have an input image with pixel values and a 3x3 filter design
 
 
 ### What are Filters?
-In Convolutional Neural Networks, filters are those small matrices (kernels) that perform the convolution operations on the input image. They are essential for extracting features by detecting patters like edges and textures as they "slide" across the input.
+In Convolutional Neural Networks, filters are those small matrices (kernels) that perform the convolution operations on the input image. They are essential for extracting features by detecting patters like edges and textures as they "slide" across the input. 
+
+### Use
+Each filter has is trained for recognizing distinctive features, which is a core task in image classification and object detection, which we will see through the exercises.
+
+They also enable translation invariance, allowing the network to recognize specific patterns regardless of their location in the image, help reduce dimensionality, enhancing computational efficiency and robustness against overfitting.
 
 ![filter or kernel](images/kernel.png)
+
+
 
 ### Key CNN Architecture
 Famous CNNs names of architecture include:
