@@ -45,24 +45,33 @@ By the end of this lesson, we will be able to:
 ## Key Definitions and Examples :key:
 
 
-### Convolutional Neural Networks (CNNs) Definition
+### What are Convolutional Neural Networks (CNNs)? 
 Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers (ViTs). CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers. As we know it, digital images are made of small units known as pixels. Each one of them is essentially a number, which in fact represents the intensity of light detected at that point, often displayed as a colored square for the sake of visualization.
 In colored images (in opposition to Black and White images), they are typically represented by three values corresponding to the intensities of Red, Green and Blue (RGB), the basic color components allowing a wide ranges of hues. To simplify, the resolution of images is the determined by the total number of pixels contained, computed by multiplying its Width and Height in pixels.
 
 
-### Convolutional Neural Networks (CNNs) Example
+### Examples
 Think of an image as a 2D matrix filled with pixel values. A CNN applies a filter (or kernel) over this matrix to perform convolution, extracting features such as edges or textures. For instance, when a 3x3 filter is applied to an image, it slides across the matrix, performing element-wise multiplication and summing the results to generate a feature map that highlights specific characteristics.
 
--**Convolution Definition:**
-Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
+### What is a Convolution?
+A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
 
--**Convolution Example:**
+-**Example:**
 For example, if we have an input image with pixel values and a 3x3 filter designed to detect vertical edges, the convolution operation will emphasize areas in the image where there are significant changes in pixel intensity vertically. This results in a new feature map that indicates where vertical edges are present.
 
--**Pooling Layers Definition:**
+### Key CNN Architecture
+Famous CNNs names of architecture include:
+
+- **LeNet-5** (1998): Developed by Yann LeCun for handwritten digit recognition, featuring 7 layers including convolutional and pooling layers.
+- **AlexNet** (2012): Created by Alex Krizhevsky et al., it won the ILSVRC with a deep architecture of 8 layers, utilizing ReLU activation.
+- **ZFNet** (2013): An improved version of AlexNet by Matthew Zeiler and Rob Fergus, focusing on hyperparameter adjustments.
+- **VGGNet** (2014): Introduced by Karen Simonyan and Andrew Zisserman, known for its depth (16 or 19 layers) and small filters.
+- **ResNet** (2015): Developed by Kaiming He et al., it introduced residual learning to address the vanishing gradient problem in deep networks.
+
+### What are Pooling Layers?
 Pooling layers are integral to CNNs as they reduce the spatial dimensions of feature maps while preserving important information. This down-sampling process helps lower computational demands and mitigate overfitting by summarizing features detected by previous layers.
 
--**Pooling Layers Example:**
+-**Pooling Layers Examples:**
 A common pooling method is Max Pooling, which selects the maximum value from each patch of the feature map defined by a specified window size (e.g., 2x2). For instance, if we apply Max Pooling on a 4x4 feature map using a 2x2 window, we would reduce it to a 2x2 matrix by taking the maximum value from each 2x2 region. (selecting maximum values from each pooling region and preserving salient features)
 
 Other Pooling Methods:
