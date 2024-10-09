@@ -63,7 +63,7 @@ To visualize simply as CNNs:
 ### Examples
 Think of an image as a 2D matrix filled with pixel values. A CNN applies a filter (or kernel) over this matrix to perform convolution, extracting features such as edges or textures. For instance, when a 3x3 filter is applied to an image, it slides across the matrix, performing element-wise multiplication and summing the results to generate a feature map that highlights specific characteristics.
 
-![filter or kernel](images/kernel.png)
+
 
 ### What is a Convolution?
 A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
@@ -72,6 +72,12 @@ A Convolution is a mathematical operation that combines two functions to create 
 For example, if we have an input image with pixel values and a 3x3 filter designed to detect vertical edges, the convolution operation will emphasize areas in the image where there are significant changes in pixel intensity vertically. This results in a new feature map that indicates where vertical edges are present.
 
 ![simple Convolution](images/deepConv.png)
+
+
+### What are Filters?
+In Convolutional Neural Networks, filters are those small matrices (kernels) that perform the convolution operations on the input image. They are essential for extracting features by detecting patters like edges and textures as they "slide" across the input.
+
+![filter or kernel](images/kernel.png)
 
 ### Key CNN Architecture
 Famous CNNs names of architecture include:
