@@ -65,7 +65,13 @@ Think of an image as a 2D matrix filled with pixel values. A CNN applies a filte
 
 
 ### What is a Convolution?
-A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
+A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. We can also understand convolutions as a series of "overlapping impulse responses", of how a given system , in our case a source image, responds to various inputs (we sometimes model an impuulse in maths as the function of Dirac (delta)).
+
+
+![operations](images/convolution operation.png)
+
+
+In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
 
 📌There are many types of convolution: single channel, multi-channel, 1*1 convolutions, 3D, etc
 
