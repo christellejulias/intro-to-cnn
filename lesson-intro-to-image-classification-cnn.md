@@ -3,7 +3,7 @@
 # ✨Introduction to Image Classification using Convolutional Neural Networks (CNNs)
 
 
-Deep Learning is one of the most fascinating fields of Artificial Intelligence, especially because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content, and today we will delve even deeper with the interesting concepts of Convolutional Neural Networks alias CNNs.
+Deep Learning is one of the most fascinating fields of Artificial Intelligence, especially because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying image content, and today we will delve even deeper with the interesting concepts of Convolutional Neural Networks alias CNNs.
 
 ## Prerequisites
 As image data are considerably voluminous, sourcing them and processing them usually require consequent processing power and energy consumption. We may collect images from the Internet thanks to Big Data, social media, streaming multimedia content, movies, photography, etc., hence the need for parallel-computing, which leads us to the extensive usage of TPUs and GPUs.
@@ -61,7 +61,7 @@ To visualize simply as CNNs:
 ### Examples
 Think of an image as a 2D matrix filled with pixel values. A CNN applies a filter (or kernel) over this matrix to perform convolution, extracting features such as edges or textures. For instance, when a 3x3 filter is applied to an image, it slides across the matrix, performing element-wise multiplication and summing the results to generate a feature map that highlights specific characteristics.
 
-![convol](images/deepConv.png)
+![convolution](images/deepConv.png)
 
 
 
@@ -76,10 +76,10 @@ We can also understand convolutions as a series of "overlapping impulse response
 
 ### Activation Functions
 To enable the model to learn complex patterns, several activation functions are used to introduce non-linearity. The most prevalent are:
-- ReLU: The default choice for hidden layers due to its computational efficiency and ability to mitgate the vanishing gradient problem. It outputs the input directly if positive, otherwise zero.
+- ReLU: The default choice for hidden layers due to its computational efficiency and ability to mitigate the vanishing gradient problem. It outputs the input directly if positive, otherwise zero.
 - Sigmoid: used in binary classification, it squashes outputs between 0 and 1, making it suitable for probability estimation.
-- Tanh (Hyperbolic Tangent): outputs values between -1 and 1, providing a zero-centered output, beneficial for certain applications (symetrical gradients distribution for faster convergence during trainings).
-- Softmax: typically used in the output layer for mutliclass classification problems, as it produces a probability distribution over multiple classes. 
+- Tanh (Hyperbolic Tangent): outputs values between -1 and 1, providing a zero-centered output, beneficial for certain applications (symmetrical gradients distribution for faster convergence during trainings).
+- Softmax: typically used in the output layer for multiclass classification problems, as it produces a probability distribution over multiple classes. 
 
 For precision, in practice the term "convolution" is the theoretical operation involving flipping the kernel before applying it to the input, the term is  used interchangeably to refer to a range of operations including the  "cross-correlation" which is in fact the most efficient convolution operation for direct feature extraction.
 
@@ -133,14 +133,14 @@ A common pooling method is Max Pooling, which selects the maximum value from eac
 Other Pooling Methods:
 - Average Pooling: Computes the average value, retaining more information than the former but potentially "diluting" key features.
 - Global Pooling: reducing each feature map to a single value, summarizing the entire map.
-- Mixed-Pooling and Super-Pixel Pooling, emerging techniques aimed at improving performance in divese applications of image classification and object detection like in our case. 
+- Mixed-Pooling and Super-Pixel Pooling, emerging techniques aimed at improving performance in diverse applications of image classification and object detection like in our case. 
 
 ![Simple Maths](images/compute-simple_convolution.jpg)
 
 ### Tools and Ecosystems:
   Google TensorFlow and Keras are the most used frameworks for building CNNs, in image classification and object detection use cases. But there are also other popular libraries:
   - Pytorch: preferred for its dynamic computation graph, useful for image segmentation and object detection with CNN architecture like ResNet,
-  - KNIME Analytics Platform: a code-free environment to implement CNN for image classification tasksfor deriving useful information from images.
+  - KNIME Analytics Platform: a code-free environment to implement CNN for image classification tasks for deriving useful information from images.
 
 
 
@@ -151,7 +151,7 @@ N.B: Convolutions and Pooling layers serve distinct but complementary roles in C
 
 - Pooling Layer: following convolutional layers, it reduces the spatial dimensions of the feature maps, which decreases the number of parameters and computations required, helping to mitigate overfitting. Pooling operations, like Max Pooling (seen before) and Average Pooling, summarize features within a region without learnable parameters, providing translational invariance.
 
-### Key Takeways 
+### Key Takeaways 
 In summary, convolution layers extract detailed features while pooling layers simplify the representation for more efficient processing.
 
     
