@@ -62,6 +62,8 @@ To visualize simply as CNNs:
 ### Examples
 Think of an image as a 2D matrix filled with pixel values. A CNN applies a filter (or kernel) over this matrix to perform convolution, extracting features such as edges or textures. For instance, when a 3x3 filter is applied to an image, it slides across the matrix, performing element-wise multiplication and summing the results to generate a feature map that highlights specific characteristics.
 
+![convol](images/deepConv.png)
+
 
 
 
