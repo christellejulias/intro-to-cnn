@@ -96,6 +96,7 @@ If you would like to study CNNs concepts a bit more before the class, or would b
 - [Deep Learning for Computer Vision](
 http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
 - [Andrew Ng Notes on CNNs by Ashish Patel](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md/)
+- [For Math Lovers: A Gentle intro on CNNs](https://towardsdatascience.com/gentle-dive-into-math-behind-convolutional-neural-networks-79a07dd44cf9)
 
 
 
