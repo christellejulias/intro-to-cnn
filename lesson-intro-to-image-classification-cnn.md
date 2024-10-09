@@ -31,16 +31,15 @@ Without further ado, let's explore the essential concepts behind image classific
 * and Pooling layers. 
 
 Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
-Next, we may experiment with other flexible frameworks such as AutoKeras to handle various formats or automate model selections, while also exploring techniques for manipulating CNNs in tasks such as image regression for quality assessment, grading items, or estimating age from facial features.
 
 ## Learning Objectives :notebook:
 By the end of this lesson, we will be able to:
 
-• Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
-• Describe the role of convolution, filters, and pooling layers in CNNs.
-• Identify key use cases for CNNs in image classification and object detection.
-• Apply the concepts learned to analyze a simple CNN architecture.
-• Discuss the advantages and limitations of using CNNs for image classification tasks.
+- Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
+- Describe the role of convolution, filters, and pooling layers in CNNs.
+- Identify key use cases for CNNs in image classification and object detection.
+- Apply the concepts learned to analyze a simple CNN architecture.
+- Discuss the advantages and limitations of using CNNs for image classification tasks.
 
 ## Key Definitions and Examples :key:
 
@@ -88,7 +87,10 @@ Other Pooling Methods:
 
     
 ## Additional Resources :clipboard:
-If you would like to study these concepts before the class or would benefit from some remedial studying, please utilize the resources below:
+
+We have seen a brief overview of CNNs. Hope you have enjoyed it so far! Next, we may experiment with other flexible frameworks such as AutoKeras to handle various formats or automate model selections, while also exploring techniques for manipulating CNNs in tasks such as image regression for quality assessment, grading items, or estimating age from facial features.
+
+If you would like to study CNNs concepts a bit more before the class, or would benefit from some remedial studying, please utilize the resources below:
 - [Deep Learning for Computer Vision with Python](https://www.pyimagesearch.com/deep-learning-computer-vision-python-book)
 - [Stanford CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
 - [Deep Learning for Computer Vision](
