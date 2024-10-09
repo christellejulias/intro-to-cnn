@@ -65,10 +65,19 @@ Think of an image as a 2D matrix filled with pixel values. A CNN applies a filte
 
 
 ### What is a Convolution?
-A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. We can also understand convolutions as a series of "overlapping impulse responses", of how a given system , in our case a source image, responds to various inputs (we sometimes model an impuulse in maths as the function of Dirac (delta)).
+A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. 
+
+![simply](images/Convolution_simply.png)
 
 
-![operations](images/convolution operation.png)
+We can also understand convolutions as a series of "overlapping impulse responses", of how a given system , in our case a source image, responds to various inputs (we sometimes model an impulse in maths as the function of Dirac (delta)). 
+
+
+For precision, in practice the term "convolution" is the theoretical operation involving flipping the kernel before applying it to the input, the term is  used interchangeably to refer to a range of operations including the  "cross-correlation" which is in fact the most efficient convolution operation for direct feature extraction.
+
+![convolution](images/convolutions-maths.jpg)
+
+
 
 
 In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
@@ -103,7 +112,7 @@ Famous CNNs names of architecture include:
 - **ResNet** (2015): Developed by Kaiming He et al., it introduced residual learning to address the vanishing gradient problem in deep networks.
 
 ### What are Pooling Layers?
-Pooling layers are integral to CNNs as they reduce the spatial dimensions of feature maps while preserving important information. This down-sampling process helps lower computational demands and mitigate overfitting by summarizing features detected by previous layers.
+Pooling layers are integral to CNNs as they reduce the spatial dimensions of feature maps while preserving important information. This **down-sampling** process helps lower computational demands and mitigate overfitting by summarizing features detected by previous layers.
 
 -**Pooling Layers Examples:**
 A common pooling method is Max Pooling, which selects the maximum value from each patch of the feature map defined by a specified window size (e.g., 2x2). For instance, if we apply Max Pooling on a 4x4 feature map using a 2x2 window, we would reduce it to a 2x2 matrix by taking the maximum value from each 2x2 region. (selecting maximum values from each pooling region and preserving salient features)
