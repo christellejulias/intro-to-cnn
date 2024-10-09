@@ -103,6 +103,9 @@ Pooling layers are integral to CNNs as they reduce the spatial dimensions of fea
 -**Pooling Layers Examples:**
 A common pooling method is Max Pooling, which selects the maximum value from each patch of the feature map defined by a specified window size (e.g., 2x2). For instance, if we apply Max Pooling on a 4x4 feature map using a 2x2 window, we would reduce it to a 2x2 matrix by taking the maximum value from each 2x2 region. (selecting maximum values from each pooling region and preserving salient features)
 
+![Maxpoolin](images/MaxpoolSample2-2414844051.png)
+
+
 Other Pooling Methods:
 - Average Pooling: Computes the average value, retaining more information than the former but potentially "diluting" key features.
 - Global Pooling: reducing each feature map to a single value, summarizing the entire map.
