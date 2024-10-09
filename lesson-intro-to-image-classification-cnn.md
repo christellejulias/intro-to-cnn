@@ -3,7 +3,6 @@
 # Introduction to Image Classification using Convolutional Neural Networks (CNNs)
 
 
-## Lesson Overview :pencil2:
 Deep Learning is one of the most fascinating fields of Artificial Intelligence, especially because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content, and today we will delve even deeper with the interesting concepts of Convolutional Neural Networks.
 
 As image data are considerably voluminous, sourcing them and processing them usually require consequent processing power and energy consumption. We can collect images from the Internet thanks to Big Data, social media, multimedia content, movies, photography, etc., hence the need for parallel-computing, which leads us to the extensive usage of TPUs and GPUs.
