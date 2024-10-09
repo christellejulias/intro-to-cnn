@@ -88,7 +88,7 @@ They also enable translation invariance, allowing the network to recognize speci
 
 
 
-### Key CNN Architecture
+### Key CNN Architectures
 Famous CNNs names of architecture include:
 
 - **LeNet-5** (1998): Developed by Yann LeCun for handwritten digit recognition, featuring 7 layers including convolutional and pooling layers.
