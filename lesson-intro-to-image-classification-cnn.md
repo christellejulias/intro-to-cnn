@@ -48,9 +48,13 @@ In colored images (in opposition to Black and White images), they are typically 
 ### What are Convolutional Neural Networks (CNNs)? 
 Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers (ViTs). CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers. 
 
+![CNN](images/layers.png)
+
 
 ### Examples
 Think of an image as a 2D matrix filled with pixel values. A CNN applies a filter (or kernel) over this matrix to perform convolution, extracting features such as edges or textures. For instance, when a 3x3 filter is applied to an image, it slides across the matrix, performing element-wise multiplication and summing the results to generate a feature map that highlights specific characteristics.
+
+![filter or kernel](images/kernel.png)
 
 ### What is a Convolution?
 A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
