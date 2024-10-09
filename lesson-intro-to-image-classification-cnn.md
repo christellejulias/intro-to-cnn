@@ -71,6 +71,8 @@ A Convolution is a mathematical operation that combines two functions to create 
 -**Example:**
 For example, if we have an input image with pixel values and a 3x3 filter designed to detect vertical edges, the convolution operation will emphasize areas in the image where there are significant changes in pixel intensity vertically. This results in a new feature map that indicates where vertical edges are present.
 
+![simple Convolution](images/deepConv.png)
+
 ### Key CNN Architecture
 Famous CNNs names of architecture include:
 
