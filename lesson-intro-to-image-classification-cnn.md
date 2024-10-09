@@ -98,10 +98,10 @@ For example, if we have an input image with pixel values and a 3x3 filter design
 
 
 ### What are Filters?
-In Convolutional Neural Networks, filters are those small matrices (kernels) that perform the convolution operations on the input image. They are essential for extracting features by detecting patters like edges and textures as they "slide" across the input. 
+In Convolutional Neural Networks, filters are those small matrices (kernels) that perform the convolution operations on the input image. They are essential for extracting features by detecting patterns like edges and textures as they "slide" across the input. 
 
 ### Use
-Each filter has is trained for recognizing distinctive features, which is a core task in image classification and object detection, which we will see through the exercises.
+Each filter has been trained to recognize distinctive features, which is a core task in image classification and object detection, which we will see through the exercises.
 
 ![example](https://miro.medium.com/v2/resize:fit:1206/format:webp/1*ZPXWZDIHFbTxs-6KVPS5gg.png)
 
