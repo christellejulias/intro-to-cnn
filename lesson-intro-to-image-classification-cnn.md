@@ -2,16 +2,11 @@
 
 # Introduction to Image Classification using Convolutional Neural Networks (CNNs)
 
- Introduction to Image Classification using Convolutional Neural Networks (CNNs)
-
-
-
 
 ## Lesson Overview :pencil2:
-Deep Learning is one of the most fascinating fields of Artificial Intelligence, especiDeep Learning is one of the most fascinating fields of Artificial Intelligence, especially because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content like classification,
+Deep Learning is one of the most fascinating fields of Artificial Intelligence, especially because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content, and today we will delve even deeper with the interesting concepts of Convolutional Neural Networks.
 
-Images Data are considerably voluminous. We can collect them from social media, multimedia content, movies, photography, etc 
-Hence the need for parallel-computing,and processing power, which leads us to the extensive usage of TPUs and GPUs.
+As image data are considerably voluminous, sourcing them and processing them usually require consequent processing power and energy consumption. We can collect images from the Internet thanks to Big Data, social media, multimedia content, movies, photography, etc., hence the need for parallel-computing, which leads us to the extensive usage of TPUs and GPUs.
 
 This added sophistication is consequently resource-intensive, therefore we choose to setup our environment around Keras and Tensorflow which are popular powerful libraries for Image Processing.
 
@@ -19,44 +14,41 @@ This added sophistication is consequently resource-intensive, therefore we choos
 
 For now, we will explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
 
+Next, we may experiment with other flexible frameworks such as AutoKeras to handle various formats or automate model selections, while also exploring techniques for manipulating CNNs in tasks such as image regression for quality assessment, grading items, or estimating age from facial features.
 
 
 ## Learning Objectives :notebook:
 By the end of this lesson, you will be able to:
 • Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
-• ally because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content like classification,
+• ally because it adds another dimension of Multimodality to learn from the World around us. 
 
-Images Data are considerably voluminous. We can collect them from social media, multimedia content, movies, photography, etc 
-Hence the need for parallel-computing,and processing power, which leads us to the extensive usage of TPUs and GPUs.
 
-This added sophistication is consequently resource-intensive, therefore we choose to setup our environment around Keras and Tensorflow which are popular powerful libraries for Image Processing.
 
-[In some projects, we may encounter uses of other libraries such as Theano, Scikit-learn (image) and Caffe...There are many other!]
-
-For now, we will explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
 
 
 
 
 ## Lesson Overview :pencil2:
-Without further ado, let's explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
+Without further ado, let's explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as:
+* Convolution, 
+* Filters, 
+* and Pooling layers. 
+
+Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
+
 
 ## Learning Objectives :notebook:
 By the end of this lesson, you will be able to:
 
 • Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
-
 • Describe the role of convolution, filters, and pooling layers in CNNs.
-
 • Identify key use cases for CNNs in image classification and object detection.
-
 • Apply the concepts learned to analyze a simple CNN architecture.
-
 • Discuss the advantages and limitations of using CNNs for image classification tasks.
 
 ## Key Definitions and Examples :key:
 ### Convolutional Neural Networks (CNNs) Definition
-Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers.
+Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers. CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers.
 
 ### Convolutional Neural Networks (CNNs) Example
 Think of an image as a 2D matrix filled with pixel values. A CNN applies a filter (or kernel) over this matrix to perform convolution, extracting features such as edges or textures. For instance, when a 3x3 filter is applied to an image, it slides across the matrix, performing element-wise multiplication and summing the results to generate a feature map that highlights specific characteristics.
