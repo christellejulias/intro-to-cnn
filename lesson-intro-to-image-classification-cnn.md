@@ -72,6 +72,12 @@ A Convolution is a mathematical operation that combines two functions to create 
 
 We can also understand convolutions as a series of "overlapping impulse responses", of how a given system , in our case a source image, responds to various inputs (we sometimes model an impulse in maths as the function of Dirac (delta)). In Computer Vision and CNNs, we use ReLU (Rectified Linear Unit) as activation function to introduce non-linearity.
 
+### Activation Functions
+To enable the model to learn complex patterns, several activation functions are used to introduce non-linearity. The most prevalent are:
+- ReLU: The default choice for hidden layers due to its computational efficiency and ability to mitgate the vanishing gradient problem. It outputs the input directly if positive, otherwise zero.
+- Sigmoid: used in binary classification, it squashes outputs between 0 and 1, making it suitable for probability estimation.
+- Tanh (Hyperbolic Tangent): outputs values between -1 and 1, providing a zero-centered output, beneficial for certain applications (symetrical gradients distribution for faster convergence during trainings).
+- Softmax: typically used in the output layer for mutliclass classification problems, as it produces a probability distribution over multiple classes. 
 
 For precision, in practice the term "convolution" is the theoretical operation involving flipping the kernel before applying it to the input, the term is  used interchangeably to refer to a range of operations including the  "cross-correlation" which is in fact the most efficient convolution operation for direct feature extraction.
 
@@ -119,7 +125,7 @@ Pooling layers are integral to CNNs as they reduce the spatial dimensions of fea
 -**Pooling Layers Examples:**
 A common pooling method is Max Pooling, which selects the maximum value from each patch of the feature map defined by a specified window size (e.g., 2x2). For instance, if we apply Max Pooling on a 4x4 feature map using a 2x2 window, we would reduce it to a 2x2 matrix by taking the maximum value from each 2x2 region. (selecting maximum values from each pooling region and preserving salient features)
 
-![Maxpoolin](images/MaxpoolSample2-2414844051.png)
+![Maxpooling](images/MaxpoolSample2-2414844051.png)
 
 
 Other Pooling Methods:
@@ -133,6 +139,7 @@ Other Pooling Methods:
   Google TensorFlow and Keras are the most used frameworks for building CNNs, in image classification and object detection use cases. But there are also other popular libraries:
   - Pytorch: prefferred for its dynamic computation graph, useful for image segmentation and object detection with CNN architecture like ResNet,
   - KNIME Analytics Platform: a code-free environment to implement CNN for image classification tasksfor deriving useful information from images.
+
 
 
 ## CONVOLUTION VS POOLING LAYER
@@ -158,7 +165,7 @@ http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
 - [For Math Lovers: A Gentle intro on CNNs](https://towardsdatascience.com/gentle-dive-into-math-behind-convolutional-neural-networks-79a07dd44cf9)
 
 
-  Image Source: Convolution maths: Illarion's Notes, 
+  (Image Source: Convolution maths: Illarion's Notes..) 
 
 
 
