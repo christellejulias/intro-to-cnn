@@ -110,7 +110,7 @@ Other Pooling Methods:
 - Global Pooling: reducing each feature map to a single value, summarizing the entire map.
 - Mixed-Pooling and Super-Pixel Pooling, emerging techniques aimed at improving performance in divese applications of image classification and object detection like in our case. 
 
-![Simple Maths](images/compute-simple_convolution.jpeg)
+![Simple Maths](images/compute-simple_convolution.jpg)
 
 ### Tools and Ecosystems:
   Google TensorFlow and Keras are the most used frameworks for building CNNs, in image classification and object detection use cases. But there are also other popular libraries:
