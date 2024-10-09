@@ -20,13 +20,10 @@ There are many Image Processing Techniques we can perform just by mastering Conv
 ✔ Image Generation: it used GANs (Generative Adversarial Networks) to create new image or enhance existing ones,
 ✔ Morphological Processing: Alter image structures based on shape.
 
-For now, we will explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
-
-Next, we may experiment with other flexible frameworks such as AutoKeras to handle various formats or automate model selections, while also exploring techniques for manipulating CNNs in tasks such as image regression for quality assessment, grading items, or estimating age from facial features.
 
 
 ## Lesson Overview :pencil2:
-Without further ado, let's explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as:
+Without further ado, let's explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. For now, we’ll break down how CNNs work, focusing on critical components such as:
 * Convolution, 
 * Filters, 
 * and Pooling layers. 
@@ -34,8 +31,11 @@ Without further ado, let's explore the essential concepts behind image classific
 Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
 
 
+Next, we may experiment with other flexible frameworks such as AutoKeras to handle various formats or automate model selections, while also exploring techniques for manipulating CNNs in tasks such as image regression for quality assessment, grading items, or estimating age from facial features.
+
+
 ## Learning Objectives :notebook:
-By the end of this lesson, you will be able to:
+By the end of this lesson, we will be able to:
 
 • Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
 • Describe the role of convolution, filters, and pooling layers in CNNs.
