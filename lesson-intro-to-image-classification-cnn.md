@@ -17,7 +17,7 @@ There are many Image Processing Techniques we can perform, just by mastering Con
 
 - ✔ Image Enhancement: to improve image quality by reducing blur or adjusting standard parameters such as brightness, contrast, and sharpness,
 - ✔ Image Restoration: to restore degraded images (antique black and white photos for eg.) using methods like inverse filtering, 🎞
-- ✔ Image Segmentation: to divide an image into "semantic/meaningful" parts according to the pixel disrtibution, using techniques like thresholding and edge detection, (eg. self-driving cars),
+- ✔ Image Segmentation: to divide an image into "semantic/meaningful" parts according to the pixel distribution, using techniques like thresholding and edge detection, (eg. self-driving cars),
 - ✔ Image Compression: to reduce the file size through lossy or lossless methods,
 - ✔ Image Generation: it used GANs (Generative Adversarial Networks) to create new image or enhance existing ones,
 - ✔ Morphological Processing: Alter image structures based on shape.
