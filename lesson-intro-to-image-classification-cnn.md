@@ -64,13 +64,14 @@ Think of an image as a 2D matrix filled with pixel values. A CNN applies a filte
 
 
 
+
 ### What is a Convolution?
 A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. 
 
 ![simply](images/Convolution_simply.png)
 
 
-We can also understand convolutions as a series of "overlapping impulse responses", of how a given system , in our case a source image, responds to various inputs (we sometimes model an impulse in maths as the function of Dirac (delta)). In Computer Vision and CNNs, we use ReLU (Rectified Linear Unit) as activation function to introduce non-linearity.
+We can also understand convolutions as a series of "overlapping impulse responses", of how a given system, in our case a source image, responds to various inputs (we sometimes model an impulse in maths as the function of Dirac (delta)). In Computer Vision and CNNs, we use ReLU (Rectified Linear Unit) as activation function to introduce non-linearity.
 
 ### Activation Functions
 To enable the model to learn complex patterns, several activation functions are used to introduce non-linearity. The most prevalent are:
@@ -84,9 +85,9 @@ For precision, in practice the term "convolution" is the theoretical operation i
 ![convolution](images/convolutions-maths.jpg)
 
 
+In CNNs, convolution involves sliding a filter over an input image to compute feature maps. In the following image (colored image RGB)the notion of stride is invoked to refer to the number of steps a kernel does to slide from row/column to row/column to achieve the objective.
 
-
-In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
+![stride](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*m4IsBwYv7QEND-y6xWw3Yw.gif)
 
 📌There are many types of convolution: single channel, multi-channel, 1*1 convolutions, 3D, etc
 
