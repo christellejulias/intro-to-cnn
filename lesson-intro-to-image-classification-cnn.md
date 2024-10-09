@@ -12,6 +12,15 @@ This added sophistication is consequently resource-intensive, therefore we choos
 
 [In some projects, we may encounter uses of other libraries such as Theano, Scikit-learn (image) and Caffe...There are many other!]
 
+There are many Image Processing Techniques we can perform just by mastering Convolutional Neural Networks basics, before gradually embracing different levels of complexity. We can cite for instance:
+
+✔ Image Enhancement: to improve image quality by reducing blur or adjusting standard parameters such as brightness, contrast, and sharpness,
+✔ Image Restoration: to restore degraded images (antique black and white photos for eg.) using methods like inverse filtering,
+✔ Image Segmentation: to divide an image into "semantic/meaningful" parts according to the pixel disrtibution, using techniques like thresholding and edge detection,
+✔ Image Compression: to reduce the file size through lossy or lossless methods, 
+✔ Image Generation: it used GANs (Generative Adversarial Networks) to create new image or enhance existing ones,
+✔ Morphological Processing: Alter image structures based on shape.
+
 For now, we will explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
 
 Next, we may experiment with other flexible frameworks such as AutoKeras to handle various formats or automate model selections, while also exploring techniques for manipulating CNNs in tasks such as image regression for quality assessment, grading items, or estimating age from facial features.
@@ -36,6 +45,8 @@ By the end of this lesson, you will be able to:
 • Discuss the advantages and limitations of using CNNs for image classification tasks.
 
 ## Key Definitions and Examples :key:
+
+
 ### Convolutional Neural Networks (CNNs) Definition
 Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers. CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers.
 
