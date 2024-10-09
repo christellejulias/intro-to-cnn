@@ -68,10 +68,12 @@ Think of an image as a 2D matrix filled with pixel values. A CNN applies a filte
 ### What is a Convolution?
 A Convolution is a mathematical operation that combines two functions to create a third function, illustrating how one function modifies another. In CNNs, convolution involves sliding a filter over an input image to compute feature maps.
 
+📌There are many types of convolution: single channel, multi-channel, 1*1 convolutions, 3D, etc
+
 -**Example:**
 For example, if we have an input image with pixel values and a 3x3 filter designed to detect vertical edges, the convolution operation will emphasize areas in the image where there are significant changes in pixel intensity vertically. This results in a new feature map that indicates where vertical edges are present.
 
-![simple Convolution](images/deepConv.png)
+![simple Convolution](images/deepConv3.png)
 
 
 ### What are Filters?
