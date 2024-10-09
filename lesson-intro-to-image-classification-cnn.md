@@ -16,8 +16,8 @@ This added sophistication is consequently resource-intensive, therefore we choos
 There are many Image Processing Techniques we can perform, just by mastering Convolutional Neural Networks basics, before gradually embracing different levels of complexity. We can cite for instance:
 
 ✔ Image Enhancement: to improve image quality by reducing blur or adjusting standard parameters such as brightness, contrast, and sharpness,
-✔ Image Restoration: to restore degraded images (antique black and white photos for eg.) using methods like inverse filtering,
-✔ Image Segmentation: to divide an image into "semantic/meaningful" parts according to the pixel disrtibution, using techniques like thresholding and edge detection,
+✔ Image Restoration: to restore degraded images (antique black and white photos for eg.) using methods like inverse filtering, 🎞
+✔ Image Segmentation: to divide an image into "semantic/meaningful" parts according to the pixel disrtibution, using techniques like thresholding and edge detection, (eg. self-driving cars)
 ✔ Image Compression: to reduce the file size through lossy or lossless methods,
 ✔ Image Generation: it used GANs (Generative Adversarial Networks) to create new image or enhance existing ones,
 ✔ Morphological Processing: Alter image structures based on shape.
@@ -31,10 +31,7 @@ Without further ado, let's explore the essential concepts behind image classific
 * and Pooling layers. 
 
 Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
-
-
 Next, we may experiment with other flexible frameworks such as AutoKeras to handle various formats or automate model selections, while also exploring techniques for manipulating CNNs in tasks such as image regression for quality assessment, grading items, or estimating age from facial features.
-
 
 ## Learning Objectives :notebook:
 By the end of this lesson, we will be able to:
@@ -73,6 +70,8 @@ If you would like to study these concepts before the class or would benefit from
 - [Deep Learning for Computer Vision](
 http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
 - [Andrew Ng Notes on CNNs by Ashish Patel](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md/)
+
+
 
 ### Tools and Ecosystems:
   Google TensorFlow and Keras are the most used frameworks for building CNNs, in image classification and object detection use cases. But there are also other popular libraries:
