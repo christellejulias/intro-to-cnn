@@ -55,7 +55,7 @@ Just like any Deep Neural Network, CNNs are made of successive interconnected la
 3. Activation Layer (ReLU): Introduces non-linearity to the model.
 4. Pooling Layer: Reduces dimensionality and computational load.
 5. Fully Connected Layer: Connects every neuron from the previous layer to neurons in this layer for classification.
-6. Output Layer: Produces final predictions, often using a softmax function for classification tasks34.
+6. Output Layer: Produces final predictions, often using a softmax function for classification tasks.
 
 
 
