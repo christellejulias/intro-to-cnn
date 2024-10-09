@@ -2,8 +2,44 @@
 
 # Introduction to Image Classification using Convolutional Neural Networks (CNNs)
 
+ Introduction to Image Classification using Convolutional Neural Networks (CNNs)
+
+
+
+
 ## Lesson Overview :pencil2:
-In this lesson, we will explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
+Deep Learning is one of the most fascinating fields of Artificial Intelligence, especiDeep Learning is one of the most fascinating fields of Artificial Intelligence, especially because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content like classification,
+
+Images Data are considerably voluminous. We can collect them from social media, multimedia content, movies, photography, etc 
+Hence the need for parallel-computing,and processing power, which leads us to the extensive usage of TPUs and GPUs.
+
+This added sophistication is consequently resource-intensive, therefore we choose to setup our environment around Keras and Tensorflow which are popular powerful libraries for Image Processing.
+
+[In some projects, we may encounter uses of other libraries such as Theano, Scikit-learn (image) and Caffe...There are many other!]
+
+For now, we will explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
+
+
+
+## Learning Objectives :notebook:
+By the end of this lesson, you will be able to:
+• Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
+• ally because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content like classification,
+
+Images Data are considerably voluminous. We can collect them from social media, multimedia content, movies, photography, etc 
+Hence the need for parallel-computing,and processing power, which leads us to the extensive usage of TPUs and GPUs.
+
+This added sophistication is consequently resource-intensive, therefore we choose to setup our environment around Keras and Tensorflow which are popular powerful libraries for Image Processing.
+
+[In some projects, we may encounter uses of other libraries such as Theano, Scikit-learn (image) and Caffe...There are many other!]
+
+For now, we will explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
+
+
+
+
+## Lesson Overview :pencil2:
+Without further ado, let's explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as convolution, filters, and pooling layers. Additionally, we’ll look at practical applications of CNNs in tasks like object detection and image classification, providing a clear understanding of their significance in real-world scenarios.
 
 ## Learning Objectives :notebook:
 By the end of this lesson, you will be able to:
