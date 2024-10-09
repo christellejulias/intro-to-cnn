@@ -10,7 +10,7 @@ As image data are considerably voluminous, sourcing them and processing them usu
 
 This added sophistication is consequently resource-intensive, therefore we choose to setup our environment around Keras and Tensorflow which are popular powerful libraries for Image Processing.
 
-[In some projects, we may encounter uses of other libraries such as Theano, Scikit-learn (image) and Caffe...and other ecosystems we will briefly mention later.]
+[In some projects, we may encounter uses of other libraries such as Theano, Scikit-Learn (Scikit-Image) and Caffe...and other ecosystems we will briefly mention later.]
 
 ## Image Processing Techniques
 There are many Image Processing Techniques we can perform, just by mastering Convolutional Neural Networks basics, before gradually embracing different levels of complexity. We can cite for instance:
