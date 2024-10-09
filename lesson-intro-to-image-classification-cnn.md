@@ -52,7 +52,6 @@ Convolutional Neural Networks (CNNs) are a type of deep learning model specifica
 
 CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers. 
 
-![Simple Maths](images/compute-simple_convolution.jpg)
 
 To visualize simply as CNNs: 
 ![Simple Convolution Math](images/nam.png)
@@ -111,7 +110,7 @@ Other Pooling Methods:
 - Global Pooling: reducing each feature map to a single value, summarizing the entire map.
 - Mixed-Pooling and Super-Pixel Pooling, emerging techniques aimed at improving performance in divese applications of image classification and object detection like in our case. 
 
-
+![Simple Maths](images/compute-simple_convolution.jpeg)
 
 ### Tools and Ecosystems:
   Google TensorFlow and Keras are the most used frameworks for building CNNs, in image classification and object detection use cases. But there are also other popular libraries:
