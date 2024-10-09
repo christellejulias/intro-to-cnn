@@ -46,7 +46,7 @@ By the end of this lesson, we will be able to:
 
 
 ### Convolutional Neural Networks (CNNs) Definition
-Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers. CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers.
+Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers (ViTs). CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers.
 
 ### Convolutional Neural Networks (CNNs) Example
 Think of an image as a 2D matrix filled with pixel values. A CNN applies a filter (or kernel) over this matrix to perform convolution, extracting features such as edges or textures. For instance, when a 3x3 filter is applied to an image, it slides across the matrix, performing element-wise multiplication and summing the results to generate a feature map that highlights specific characteristics.
