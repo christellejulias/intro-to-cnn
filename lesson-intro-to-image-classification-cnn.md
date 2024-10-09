@@ -70,7 +70,7 @@ A Convolution is a mathematical operation that combines two functions to create 
 ![simply](images/Convolution_simply.png)
 
 
-We can also understand convolutions as a series of "overlapping impulse responses", of how a given system , in our case a source image, responds to various inputs (we sometimes model an impulse in maths as the function of Dirac (delta)). 
+We can also understand convolutions as a series of "overlapping impulse responses", of how a given system , in our case a source image, responds to various inputs (we sometimes model an impulse in maths as the function of Dirac (delta)). In Computer Vision and CNNs, we use ReLU (Rectified Linear Unit) as activation function to introduce non-linearity.
 
 
 For precision, in practice the term "convolution" is the theoretical operation involving flipping the kernel before applying it to the input, the term is  used interchangeably to refer to a range of operations including the  "cross-correlation" which is in fact the most efficient convolution operation for direct feature extraction.
@@ -95,6 +95,8 @@ In Convolutional Neural Networks, filters are those small matrices (kernels) tha
 
 ### Use
 Each filter has is trained for recognizing distinctive features, which is a core task in image classification and object detection, which we will see through the exercises.
+
+![example](https://miro.medium.com/v2/resize:fit:1206/format:webp/1*ZPXWZDIHFbTxs-6KVPS5gg.png)
 
 They also enable translation invariance, allowing the network to recognize specific patterns regardless of their location in the image, help reduce dimensionality, enhancing computational efficiency and robustness against overfitting.
 
@@ -154,6 +156,9 @@ If you would like to study CNNs concepts a bit more before the class, or would b
 http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
 - [Andrew Ng Notes on CNNs by Ashish Patel](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md/)
 - [For Math Lovers: A Gentle intro on CNNs](https://towardsdatascience.com/gentle-dive-into-math-behind-convolutional-neural-networks-79a07dd44cf9)
+
+
+  Image Source: Convolution maths: Illarion's Notes, 
 
 
 
