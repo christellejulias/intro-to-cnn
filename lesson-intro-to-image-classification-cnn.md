@@ -17,17 +17,6 @@ For now, we will explore the essential concepts behind image classification usin
 Next, we may experiment with other flexible frameworks such as AutoKeras to handle various formats or automate model selections, while also exploring techniques for manipulating CNNs in tasks such as image regression for quality assessment, grading items, or estimating age from facial features.
 
 
-## Learning Objectives :notebook:
-By the end of this lesson, you will be able to:
-• Explain the basic structure and functioning of Convolutional Neural Networks (CNNs).
-• ally because it adds another dimension of Multimodality to learn from the World around us. 
-
-
-
-
-
-
-
 ## Lesson Overview :pencil2:
 Without further ado, let's explore the essential concepts behind image classification using Convolutional Neural Networks (CNNs), a key element in the field of computer vision. We’ll break down how CNNs work, focusing on critical components such as:
 * Convolution, 
