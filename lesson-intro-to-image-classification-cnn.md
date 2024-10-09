@@ -63,7 +63,12 @@ For example, if we have an input image with pixel values and a 3x3 filter design
 Pooling layers are integral to CNNs as they reduce the spatial dimensions of feature maps while preserving important information. This down-sampling process helps lower computational demands and mitigate overfitting by summarizing features detected by previous layers.
 
 -**Pooling Layers Example:**
-A common pooling method is Max Pooling, which selects the maximum value from each patch of the feature map defined by a specified window size (e.g., 2x2). For instance, if we apply Max Pooling on a 4x4 feature map using a 2x2 window, we would reduce it to a 2x2 matrix by taking the maximum value from each 2x2 region.
+A common pooling method is Max Pooling, which selects the maximum value from each patch of the feature map defined by a specified window size (e.g., 2x2). For instance, if we apply Max Pooling on a 4x4 feature map using a 2x2 window, we would reduce it to a 2x2 matrix by taking the maximum value from each 2x2 region. (selecting maximum values from each pooling region and preserving salient features)
+
+Other Pooling Methods:
+- Average Pooling: Computes the average value, retaining more information than the former but potentially "diluting" key features.
+- Global Pooling: reducing each feature map to a single value, summarizing the entire map.
+- Mixed-Pooling and Super-Pixel Pooling, emerging techniques aimed at improving performance in divese applications of image classification and object detection like in our case. 
 
 
 
