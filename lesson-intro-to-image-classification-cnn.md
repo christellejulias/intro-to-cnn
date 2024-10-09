@@ -43,7 +43,7 @@ By the end of this lesson, we will be able to:
 
 ## Key Definitions and Examples :key:
 As we know it, digital images are made of small units known as pixels. Each one of them is essentially a number, which in fact represents the intensity of light detected at that point, often displayed as a colored square for the sake of visualization.
-In colored images (in opposition to Black and White images), they are typically represented by three values corresponding to the intensities of Red, Green and Blue (RGB), the basic color components allowing a wide ranges of hues. To simplify, the resolution of images is the determined by the total number of pixels contained, computed by multiplying its Width and Height in pixels.
+In colored images (in opposition to Black and White images), they are typically represented by three values corresponding to the intensities of Red, Green and Blue (RGB), the basic color components allowing a wide ranges of hues. To simplify, the resolution of images is determined by the total number of pixels contained, computed by multiplying its Width and Height in pixels.
 
 ### What are Convolutional Neural Networks (CNNs)? 
 Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers (ViTs). 
