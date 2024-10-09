@@ -63,14 +63,6 @@ Pooling layers are integral to CNNs as they reduce the spatial dimensions of fea
 -**Pooling Layers Example:**
 A common pooling method is Max Pooling, which selects the maximum value from each patch of the feature map defined by a specified window size (e.g., 2x2). For instance, if we apply Max Pooling on a 4x4 feature map using a 2x2 window, we would reduce it to a 2x2 matrix by taking the maximum value from each 2x2 region.
 
-## Additional Resources :clipboard:
-If you would like to study these concepts before the class or would benefit from some remedial studying, please utilize the resources below:
-- [Deep Learning for Computer Vision with Python](https://www.pyimagesearch.com/deep-learning-computer-vision-python-book)
-- [Stanford CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
-- [Deep Learning for Computer Vision](
-http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
-- [Andrew Ng Notes on CNNs by Ashish Patel](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md/)
-
 
 
 ### Tools and Ecosystems:
@@ -78,6 +70,14 @@ http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
   - Pytorch: prefferred for its dynamic computation graph, useful for image segmentation and object detection with CNN architecture like ResNet,
   - KNIME Analytics Platform: a code-free environment to implement CNN for image classification tasksfor deriving useful information from images.
 
+    
+## Additional Resources :clipboard:
+If you would like to study these concepts before the class or would benefit from some remedial studying, please utilize the resources below:
+- [Deep Learning for Computer Vision with Python](https://www.pyimagesearch.com/deep-learning-computer-vision-python-book)
+- [Stanford CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
+- [Deep Learning for Computer Vision](
+http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
+- [Andrew Ng Notes on CNNs by Ashish Patel](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md/)
 
 
 
