@@ -114,7 +114,7 @@ They also enable translation invariance, allowing the network to recognize speci
 
 
 ### Key CNN Architectures
-Famous CNNs names of architecture include:
+Famous CNNs include:
 
 - **LeNet-5** (1998): Developed by Yann LeCun for handwritten digit recognition, featuring 7 layers including convolutional and pooling layers.
 - **AlexNet** (2012): Created by Alex Krizhevsky et al., it won the ILSVRC with a deep architecture of 8 layers, utilizing ReLU activation.
