@@ -46,9 +46,18 @@ As we know it, digital images are made of small units known as pixels. Each one 
 In colored images (in opposition to Black and White images), they are typically represented by three values corresponding to the intensities of Red, Green and Blue (RGB), the basic color components allowing a wide ranges of hues. To simplify, the resolution of images is the determined by the total number of pixels contained, computed by multiplying its Width and Height in pixels.
 
 ### What are Convolutional Neural Networks (CNNs)? 
-Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers (ViTs). CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers. 
+Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers (ViTs). 
 
 ![CNN](images/layers.png)
+
+CNNs leverage a mathematical operation called convolution, which allows them to automatically identify patterns and features within images through multiple processing layers. 
+
+![Simple Maths](images/compute-simple_convolution.jpg)
+
+To visualize simply as CNNs: 
+![Simple Convolution Math](images/nam.png)
+
+
 
 
 ### Examples
