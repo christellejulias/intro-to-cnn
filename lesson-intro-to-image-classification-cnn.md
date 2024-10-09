@@ -123,6 +123,16 @@ Other Pooling Methods:
   - Pytorch: prefferred for its dynamic computation graph, useful for image segmentation and object detection with CNN architecture like ResNet,
   - KNIME Analytics Platform: a code-free environment to implement CNN for image classification tasksfor deriving useful information from images.
 
+
+## CONVOLUTION VS POOLING LAYER
+N.B: Convolutions and Pooling layers serve distinct but complementary roles in CNNs:
+- Convolution Layer: applies filter to the input data, detecting patterns and features, generates feature maps by sliding a filter over the input, performing element-wise multiplication and summing the results. The convolutional layer has learnable parameters (weights) that are updated during training to optimize feature extraction.
+
+- Pooling Layer: following convolutional layers, they reduce the spatial dimensions of the feature maps, which decreased the number of parameters and computations required, helping to mitigate overfitting. Pooling operations, like Max Pooling (seen before) and average pooling, summarize features within a region without learnable parameters, providing translational invariance.
+
+### Key Takeways 
+In summary, convolution layers extract detailed features while pooling layers simplify the representation for more efficient processing.
+
     
 ## Additional Resources :clipboard:
 
