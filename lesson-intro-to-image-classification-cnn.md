@@ -140,7 +140,7 @@ Other Pooling Methods:
 
 ### Tools and Ecosystems:
   Google TensorFlow and Keras are the most used frameworks for building CNNs, in image classification and object detection use cases. But there are also other popular libraries:
-  - Pytorch: prefferred for its dynamic computation graph, useful for image segmentation and object detection with CNN architecture like ResNet,
+  - Pytorch: preferred for its dynamic computation graph, useful for image segmentation and object detection with CNN architecture like ResNet,
   - KNIME Analytics Platform: a code-free environment to implement CNN for image classification tasksfor deriving useful information from images.
 
 
