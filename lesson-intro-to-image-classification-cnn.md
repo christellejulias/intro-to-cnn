@@ -1,17 +1,19 @@
  
 
-# Introduction to Image Classification using Convolutional Neural Networks (CNNs)
+# ✨Introduction to Image Classification using Convolutional Neural Networks (CNNs)
 
 
-Deep Learning is one of the most fascinating fields of Artificial Intelligence, especially because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content, and today we will delve even deeper with the interesting concepts of Convolutional Neural Networks.
+Deep Learning is one of the most fascinating fields of Artificial Intelligence, especially because it adds another dimension of Multimodality to learn from the World around us. As we probably have seen before, there are many different ways of studying images'content, and today we will delve even deeper with the interesting concepts of Convolutional Neural Networks alias CNNs.
 
-As image data are considerably voluminous, sourcing them and processing them usually require consequent processing power and energy consumption. We can collect images from the Internet thanks to Big Data, social media, multimedia content, movies, photography, etc., hence the need for parallel-computing, which leads us to the extensive usage of TPUs and GPUs.
+## Prerequisites
+As image data are considerably voluminous, sourcing them and processing them usually require consequent processing power and energy consumption. We may collect images from the Internet thanks to Big Data, social media, streaming multimedia content, movies, photography, etc., hence the need for parallel-computing, which leads us to the extensive usage of TPUs and GPUs.
 
 This added sophistication is consequently resource-intensive, therefore we choose to setup our environment around Keras and Tensorflow which are popular powerful libraries for Image Processing.
 
-[In some projects, we may encounter uses of other libraries such as Theano, Scikit-learn (image) and Caffe...There are many other!]
+[In some projects, we may encounter uses of other libraries such as Theano, Scikit-learn (image) and Caffe...and other ecosystems we will briefly mention later.]
 
-There are many Image Processing Techniques we can perform just by mastering Convolutional Neural Networks basics, before gradually embracing different levels of complexity. We can cite for instance:
+## Image Processing Techniques
+There are many Image Processing Techniques we can perform, just by mastering Convolutional Neural Networks basics, before gradually embracing different levels of complexity. We can cite for instance:
 
 ✔ Image Enhancement: to improve image quality by reducing blur or adjusting standard parameters such as brightness, contrast, and sharpness,
 ✔ Image Restoration: to restore degraded images (antique black and white photos for eg.) using methods like inverse filtering,
@@ -71,6 +73,11 @@ If you would like to study these concepts before the class or would benefit from
 - [Deep Learning for Computer Vision](
 http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
 - [Andrew Ng Notes on CNNs by Ashish Patel](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md/)
+
+### Tools and Ecosystems:
+  Google TensorFlow and Keras are the most used frameworks for building CNNs, in image classification and object detection use cases. But there are also other popular libraries:
+  - Pytorch: prefferred for its dynamic computation graph, useful for image segmentation and object detection with CNN architecture like ResNet,
+  - KNIME Analytics Platform: a code-free environment to implement CNN for image classification tasksfor deriving useful information from images.
 
 
 
