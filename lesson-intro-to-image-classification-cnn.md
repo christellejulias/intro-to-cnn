@@ -168,7 +168,7 @@ http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
 - [For Math Lovers: A Gentle intro on CNNs](https://towardsdatascience.com/gentle-dive-into-math-behind-convolutional-neural-networks-79a07dd44cf9)
 
 
-  (Image Source: Convolution maths: Illarion's Notes..) 
+
 
 
 
