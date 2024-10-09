@@ -19,7 +19,7 @@ There are many Image Processing Techniques we can perform, just by mastering Con
 - ✔ Image Restoration: to restore degraded images (antique black and white photos for eg.) using methods like inverse filtering, 🎞
 - ✔ Image Segmentation: to divide an image into "semantic/meaningful" parts according to the pixel distribution, using techniques like thresholding and edge detection, (eg. self-driving cars),
 - ✔ Image Compression: to reduce the file size through lossy or lossless methods,
-- ✔ Image Generation: it used GANs (Generative Adversarial Networks) to create new image or enhance existing ones,
+- ✔ Image Generation: it uses GANs (Generative Adversarial Networks) to create new image or enhance existing ones,
 - ✔ Morphological Processing: Alter image structures based on shape.
 
 
@@ -46,7 +46,18 @@ As we know it, digital images are made of small units known as pixels. Each one 
 In colored images (in opposition to Black and White images), they are typically represented by three values corresponding to the intensities of Red, Green and Blue (RGB), the basic color components allowing a wide ranges of hues. To simplify, the resolution of images is determined by the total number of pixels contained, computed by multiplying its Width and Height in pixels.
 
 ### What are Convolutional Neural Networks (CNNs)? 
-Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed to process structured data like images. They are advanced machine learning vision models, we often encounter beside vision transformers (ViTs). 
+Convolutional Neural Networks (CNNs) are a type of advanced machine learning / deep learning models, specifically designed to process structured data like images. To be more specific, those are feed-forward neural networks used to perform feature engineering via filter optimization. We often encounter CNNs as an alternative beside vision transformers (ViTs).  
+
+Just like any Deep Neural Network, CNNs are made of successive interconnected layers. What makes them different is that those layers follow the sequence:
+
+1. Input Layer: Accepts the input data.
+2. Convolutional Layer: Applies filters to extract features from the input.
+3. Activation Layer (ReLU): Introduces non-linearity to the model.
+4. Pooling Layer: Reduces dimensionality and computational load.
+5. Fully Connected Layer: Connects every neuron from the previous layer to neurons in this layer for classification.
+6. Output Layer: Produces final predictions, often using a softmax function for classification tasks34.
+
+
 
 ![CNN](images/layers.png)
 
@@ -72,16 +83,16 @@ A Convolution is a mathematical operation that combines two functions to create 
 ![simply](images/Convolution_simply.png)
 
 
-We can also understand convolutions as a series of "overlapping impulse responses", of how a given system, in our case a source image, responds to various inputs (we sometimes model an impulse in maths as the function of Dirac (delta)). In Computer Vision and CNNs, we use ReLU (Rectified Linear Unit) as activation function to introduce non-linearity.
+We can also understand convolutions as a series of "overlapping impulse responses", of how a given system, in our case a source image, responds to various inputs (we sometimes model an impulse in maths as the function of Dirac (delta)). In Computer Vision and CNNs, we often use ReLU (Rectified Linear Unit) as activation function to introduce non-linearity.
 
 ### Activation Functions
-To enable the model to learn complex patterns, several activation functions are used to introduce non-linearity. The most prevalent are:
+To enable the model to learn complex patterns, several activation functions are used, as mentioned, to introduce non-linearity. The most prevalent are:
 - ReLU: The default choice for hidden layers due to its computational efficiency and ability to mitigate the vanishing gradient problem. It outputs the input directly if positive, otherwise zero.
 - Sigmoid: used in binary classification, it squashes outputs between 0 and 1, making it suitable for probability estimation.
 - Tanh (Hyperbolic Tangent): outputs values between -1 and 1, providing a zero-centered output, beneficial for certain applications (symmetrical gradients distribution for faster convergence during trainings).
 - Softmax: typically used in the output layer for multiclass classification problems, as it produces a probability distribution over multiple classes. 
 
-For precision, in practice the term "convolution" is the theoretical operation involving flipping the kernel before applying it to the input, the term is  used interchangeably to refer to a range of operations including the  "cross-correlation" which is in fact the most efficient convolution operation for direct feature extraction.
+For precision, in practice the term "convolution" is the theoretical operation involving flipping the kernel before applying it to the input. The term is  used interchangeably to refer to a range of operations including the  "cross-correlation" which is in fact the most efficient convolution operation for direct feature extraction.
 
 ![convolution](images/convolutions-maths.jpg)
 
