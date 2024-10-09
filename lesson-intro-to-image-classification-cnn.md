@@ -8,7 +8,7 @@ Deep Learning is one of the most fascinating fields of Artificial Intelligence, 
 ## Prerequisites
 As image data are considerably voluminous, sourcing them and processing them usually require consequent processing power and energy consumption. We may collect images from the Internet thanks to Big Data, social media, streaming multimedia content, movies, photography, etc., hence the need for parallel-computing, which leads us to the extensive usage of TPUs and GPUs.
 
-This added sophistication is consequently resource-intensive, therefore we choose to setup our environment around Keras and Tensorflow which are popular powerful libraries for Image Processing.
+This added sophistication is consequently resource-intensive, therefore we choose to set up our environment around Keras and Tensorflow which are popular powerful libraries for Image Processing.
 
 [In some projects, we may encounter uses of other libraries such as Theano, Scikit-Learn (Scikit-Image) and Caffe...and other ecosystems we will briefly mention later.]
 
