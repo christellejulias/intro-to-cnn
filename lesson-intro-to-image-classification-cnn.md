@@ -173,6 +173,7 @@ We have seen a brief overview of CNNs. Hope you have enjoyed it so far! Next, we
 If you would like to study CNNs concepts a bit more before the class, or would benefit from some remedial studying, please utilize the resources below:
 - [Deep Learning for Computer Vision with Python](https://www.pyimagesearch.com/deep-learning-computer-vision-python-book)
 - [Stanford CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
+- [CNN Cheatshee] (https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
 - [Deep Learning for Computer Vision, a concise yet rich booklet by  Ava Soleimany](
 http://introtodeeplearning.com/2019/materials/2019_6S191_L3.pdf)
 - [Andrew Ng Notes on CNNs by Ashish Patel](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md/)
